@@ -24,6 +24,12 @@
     <Compile Include="dataPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GraphPackage\Graph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ImagePackage\Image.py">
       <SubType>Code</SubType>
     </Compile>
@@ -61,6 +67,7 @@
     <Folder Include="dataPackage\MMLU\" />
     <Folder Include="dataPackage\MMLU\data\" />
     <Folder Include="dataPackage\MMLU\results\" />
+    <Folder Include="GraphPackage\" />
     <Folder Include="ImagePackage\" />
     <Folder Include="mainPackage\" />
     <Folder Include="PDFPackage\" />
