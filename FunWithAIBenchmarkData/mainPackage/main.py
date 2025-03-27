@@ -5,4 +5,5 @@
 from ImagePackage.Image import *
 
 if __name__ == "__main__":
-    main()
+    image_path = "IntelPentium.jpg"
+    display_image(image_path)
